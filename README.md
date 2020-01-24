@@ -19,6 +19,7 @@ $ tree
 ├── js
 │   └── marked.esm.js
 ├── nosta.js
+├── package.json
 ├── README.md
 └── style.css
 ```
