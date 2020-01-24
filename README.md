@@ -74,6 +74,7 @@ inserted into the dom. And that's mostly it.
 * ES6 syntax & features, only modern browser support
 * Use filesystems links to provide server side pushState compatibility
 * Offline installable, architecture enables asset caching (not implemented yet)
+* ATM only runs on top level path, not on subdirectory like jo.github.io/nosta
 
 
 Thanks for reading. If you find this interesting, consider contributing to the
