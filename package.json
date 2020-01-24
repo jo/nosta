@@ -1,0 +1,8 @@
+{
+  "name": "nosta",
+  "version": "1.0.0",
+  "description": "Skeleton for a small single page application based on dynamic imports.",
+  "main": "nosta.js",
+  "author": "Johannes J. Schmidt <schmidt@netzmerk.com>",
+  "license": "Apache-2.0"
+}

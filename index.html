@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <title>Nosta</title>
+    <meta name=viewport content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel=stylesheet href=/style.css>
+  </head>
+  <body>
+    <header id=header>
+      <nav>
+        <a href=/>Home</a>
+        <a href=/about/>About</a>
+      </nav>
+    </header>
+    <main>
+      <article id=article></article>
+      <aside id=aside></aside>
+    </main>
+    <footer><p>©2020</p></footer>
+    <script type=module>
+      import { Nosta } from '/nosta.js'
+      Nosta({
+        elements: {
+          header,
+          article,
+          aside
+        }
+      })
+    </script>
+  </body>
+</html>

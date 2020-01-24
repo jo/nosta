@@ -1,0 +1,25 @@
+body {
+  margin: 0 6.8vw;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+header {
+  margin: 6.8vw 0 0 0;
+}
+main {
+  flex: 1;
+}
+p {
+  max-width: 55em;
+}
+footer {
+  margin: 0 0 2.3vw 0;
+}
+
+@media (min-width: 600px) {
+  body {
+    margin: 0 16.8vw;
+  }
+}
